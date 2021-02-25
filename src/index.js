@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+// react-toastify 
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
+import { AppContextProvider } from './context/AppContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <AppContextProvider>
     <App />
-  </React.StrictMode>,
+    {/* each popup closes after 4 segundos */}
+    <ToastContainer autoClose={4000} />
+  </AppContextProvider>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
