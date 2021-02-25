@@ -11,7 +11,7 @@ Responsive Layout: Works well for Desktop and Mobile devices.
 ### :camera: Screenshot
 ![](/src/assets/screen01.png)
 
-<p align="center"><img src="src/assets/screen02.png></p>
+<p align="center">![](/src/assets/screen01.png)</p>
 
 
 ### :gear: Install
