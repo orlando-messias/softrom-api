@@ -2,14 +2,16 @@
 
 ### :computer: About
 
-This is a repository that consumes Softrom API to perform a CRUD in Frotend using ReacjJS, axios and Material-UI.
+This is a repository that consumes Softrom API to perform a CRUD in Frotend using ReacjJS, Axios and Material-UI.
 
 In addition to that, you can search for **Company Names** using the Search Bar available on the top of the page.
 
-Responsive Layout: Works well for dektop and mobile devices.
+Responsive Layout: Works well for Desktop and Mobile devices.
 
 ### :camera: Screenshot
 ![](/src/assets/screen01.png)
+
+<p align="center"><img src="/src/assets/screen02.png></p>
 
 
 ### :gear: Install
