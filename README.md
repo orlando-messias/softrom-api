@@ -2,7 +2,7 @@
 
 ### :computer: About
 
-This is a repository that consumes Softrom API to perform a CRUD in Frotend using ReacjJS, Axios and Material-UI.
+This is a repository that consumes Softrom API to perform a CRUD in Frontend using ReacjJS, Axios and Material-UI.
 
 In addition to that, you can search for **Company Names** using the Search Bar available on the top of the page.
 
