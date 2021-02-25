@@ -87,7 +87,7 @@ const ModalEdit = ({ handleModalEdit, showModalEdit }) => {
     // simulates a delay to reload the companies after updating
     setTimeout(() => {
       setOnEdit(!onEdit);
-      toast.success('PLEASE, WAIT! Will be updated in a few seconds');
+      toast.success('PLEASE, WAIT! Update in a few seconds');
       setModified(false);
     }, 1000);
 
